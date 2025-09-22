@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MagistrTheOne - Professional Portfolio
 
-## Getting Started
+Профессиональное резюме Senior Fullstack Developer + AI в стиле темного стекла (glassmorphism).
 
-First, run the development server:
+## 🚀 О проекте
+
+Современное портфолио разработчика с акцентом на искусственный интеллект и квантовые вычисления. Сайт создан с использованием передовых технологий и минималистичного дизайна.
+
+### ✨ Особенности
+
+- **Glassmorphism дизайн** - полупрозрачные элементы с размытием
+- **Адаптивная верстка** - работает на всех устройствах
+- **Плавные анимации** - CSS-анимации без JavaScript
+- **Темная тема** - профессиональный черный минимализм
+- **Интерактивность** - hover эффекты и плавные переходы
+
+## 🛠 Технологический стек
+
+- **Next.js 15.5** - React фреймворк с Turbopack
+- **Tailwind CSS 4+** - утилитарный CSS фреймворк
+- **TypeScript** - типизированный JavaScript
+- **Radix UI** - компоненты для доступности
+- **Geist Font** - современная типографика
+
+## 📱 Секции сайта
+
+1. **Hero** - главная информация и статистика
+2. **Навыки** - технологический стек с прогресс-барами
+3. **Проекты** - витрина 33+ машин и систем
+4. **Патенты** - 22+ патента в области ИИ
+5. **Публикации** - научные статьи в рецензии
+6. **Контакты** - способы связи
+
+## 🚀 Запуск проекта
 
 ```bash
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Сборка для продакшена
+npm run build
+
+# Запуск продакшен версии
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Откройте [http://localhost:3000](http://localhost:3000) в браузере.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Структура проекта
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── globals.css        # Глобальные стили
+│   ├── layout.tsx         # Основной layout
+│   └── page.tsx           # Главная страница
+├── components/
+│   ├── sections/          # Секции сайта
+│   │   ├── HeroSection.tsx
+│   │   ├── SkillsSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   ├── PatentsSection.tsx
+│   │   ├── AchievementsSection.tsx
+│   │   └── ContactSection.tsx
+│   └── Navigation.tsx     # Навигация
+└── lib/
+    └── utils.ts           # Утилиты
+```
 
-## Learn More
+## 🎨 Дизайн-система
 
-To learn more about Next.js, take a look at the following resources:
+### Цветовая палитра
+- **Фон:** Черный (#000000)
+- **Текст:** Белый с градиентами
+- **Акценты:** Синий → Фиолетовый → Розовый градиент
+- **Glassmorphism:** Полупрозрачность с размытием
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Типографика
+- **Заголовки:** Geist Sans (Bold)
+- **Основной текст:** Geist Sans (Regular)
+- **Код/патенты:** Geist Mono
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📊 Ключевые достижения
 
-## Deploy on Vercel
+- **22+ патента** в области искусственного интеллекта
+- **33+ проекта** машин и систем
+- **6+ публикаций** в ведущих научных журналах
+- **10+ лет** опыта разработки
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔗 Контакты
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Telegram:** [@MagistrTheOne](https://t.me/MagistrTheOne)
+- **Email:** maxonyushko71@gmail.com
+- **Локация:** Краснодар, Россия
+
+## 📄 Лицензия
+
+Проект создан для демонстрации профессиональных навыков MagistrTheOne.
+
+---
+
+*© 2025 MagistrTheOne • Senior Fullstack Developer + AI*
